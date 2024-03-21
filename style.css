@@ -1,0 +1,175 @@
+.textview {
+    transform: translateX(-11px) translateY(-11px);
+    height: 71px;
+    width: 361px;
+    font-size: 35px;
+    background-color: rgb(106, 194, 106);
+    border-radius: 11px;
+}
+
+.button1 {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    background-color: rgba(58, 58, 59, 0.986);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.171), rgba(26, 26, 26, 0.829));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: .1s, .1s;
+}
+
+.button1:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.button1:active {
+    box-shadow: inset -2px -2px 3px rgb(255, 255, 255), inset 2px 2px 3px rgb(0, 0, 0);
+}
+
+.button2 {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    background-color: rgba(231, 2, 2, 0.986);
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.76), rgba(255, 0, 0, 0.171), rgba(105, 0, 0, 0.829));
+    box-shadow: inset 2px 2px 3px rgb(255, 255, 255), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: .2s, .2s;
+}
+
+.button2:hover {
+    background-color: rgb(100, 0, 0);
+}
+
+.button2:active {
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0), inset -2px -2px 3px rgb(255, 255, 255);
+}
+
+.button3 {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    background-color: rgba(34, 34, 150, 0.986);
+    background-image: linear-gradient(to top, rgba(34, 34, 150, 0.678), rgba(34, 34, 150, 0.171), rgba(17, 17, 85, 0.829));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: .2s, .2s;
+}
+
+.button3:hover {
+    background-color: rgb(12, 13, 78);
+}
+
+.button3:active {
+    box-shadow: inset -2px -2px 3px rgb(255, 255, 255), inset 2px 2px 3px rgb(0, 0, 0);
+}
+
+.button4 {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    background-color: rgba(61, 153, 0, 0.973);
+    background-image: linear-gradient(to top, rgba(46, 199, 0, 0.678), rgba(46, 199, 0, 0.171), rgba(14, 87, 0, 0.829));
+    box-shadow: inset 2px 2px 3px rgb(255, 255, 255), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: .2s, .2s;
+}
+
+.button4:hover {
+    background-color: rgba(37, 92, 0, 0.973);
+}
+
+.button4:active {
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0), inset -2px -2px 3px rgb(255, 255, 255);
+}
+
+.button5 {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 32px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    background-color: rgba(255, 140, 0, 0.986);
+    background-image: linear-gradient(to top, rgba(230, 180, 0, 0.76), rgba(230, 180, 0, 0.171), rgba(50, 20, 0, 0.829));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    transition-property: background-color, box-shadow;
+    transition-duration: .2s, .2s;
+}
+
+.button5:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.button5:active {
+    box-shadow: inset -2px -2px 3px rgb(255, 255, 255), inset 2px 2px 3px rgb(0, 0, 0);
+}
+
+#front {
+    position: relative;
+    width: 401px;
+    height: 426px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    background-color: #000f21;
+    border: 10px solid gray;
+    box-shadow: 10px 10px 100px 50px; 
+}
+
+#back {
+    position: relative;
+    padding-top: 5x;
+    transform: translateX(60px) translateY(-409px);
+    display: none;
+    width: 400px;
+    height: 325px;
+    text-align: center;
+    background-color: #000f21;
+    transition-property: display;
+    transition-duration: 1s;
+}
+
+.main {
+    text-align: center;
+    position: relative;
+    transform: translateX(700px) translateY(150px);
+}
+
+.bg {
+    background-image: url('bg2.png');
+    width: 1920px;
+    height: 1080px;
+}
